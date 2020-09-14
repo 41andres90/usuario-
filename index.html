@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8">
+
+        <title>
+        login 
+        </title>
+
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body >
+
+        <div class="contenedor-logueo">
+            <div class="toggle">
+                <span> Crear cuenta</span>
+            </div>
+            <div class="formulario">
+                <h2> Iniciar sesión </h2>
+        <form id="login" action="#">
+            <input type="text" name="usuario" id="user" placeholder=" Usuario " class="test" autofocus required>
+            <input type="password" name="password" id="con" placeholder=" Contraseña " class="test" required>
+            <input type="button" id="boton" value="Iniciar sesión" class="btn btn-outline-success"> 
+        </form>
+            </div>
+            <div class="formulario">
+                <h2> Crear cuenta </h2>
+        <form  name="registro" action="#" action="" id="form" >
+            <input type="text" name="userreg" id="user1" placeholder=" Usuario " class="test" autofocus required>
+            <input type="password" name="conreg" id="pas" placeholder=" Contraseña " class="test" required>
+            <input type="email" id="mail" placeholder=" Correo electronico" class="test" >
+            <input type="text" id="tel" placeholder="Teléfono" class="test" >
+
+            <input type="button" value="Registrarse" class="btn btn-outline-success"> 
+        </form>
+            </div>
+            <div class="reset-contraseña">
+                <a href="#"> Olvidaste la contraseña? </a>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+        </body>
+</html>
